@@ -1,0 +1,62 @@
+.header {
+  max-width: 1440px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.header__black {
+  background-color: #000000;
+  width: 100%;
+  height: 29px;
+}
+
+.header__logo {
+  width: 160px;
+  height: 36px;
+  margin-right: 102px;
+}
+
+.header__links {
+  width: 736px;
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 22px 296px 0 0;
+}
+
+.header__item {
+  margin-right: 22px;
+}
+
+.header__item:last-child {
+  margin: 0;
+}
+
+.header__link {
+  text-decoration: none;
+  color: #000000;
+  line-height: 21px;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+.header__avatars {
+  width: 51px;
+  display: flex;
+  align-self: flex-end;
+}
+
+.header__avatar {
+  margin-right: 20px;
+}
+
+.header__avatar-icon {
+  width: 18px;
+  height: 18px;
+}
+
+.header__basket-icon {
+  width: 18px;
+  height: 18px;
+}
