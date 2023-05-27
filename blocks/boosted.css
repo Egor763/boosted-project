@@ -3,7 +3,6 @@
 }
 
 .boosted__container {
-  border: 1px solid blue;
   width: 100%;
   position: relative;
   display: flex;
@@ -12,44 +11,75 @@
 }
 
 .boosted__image {
-  border: 1px solid blue;
   width: 100%;
 }
 
 .boosted__title {
-  border: 1px solid blue;
   width: 511px;
   position: absolute;
   top: 53px;
   bottom: 14px;
+  line-height: 51px;
+  font-size: 44px;
+  font-weight: 400;
+  height: 51px;
+  margin: 0;
 }
 
 .boosted__subtitle {
-  border: 1px solid blue;
   width: 537px;
+  position: absolute;
+  top: 118px;
+  bottom: 22px;
+  line-height: 19px;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  height: 19px;
+  margin: 0;
 }
 
 .boosted__links {
-  border: 1px solid blue;
   width: 414px;
+  position: absolute;
+  top: 159px;
+  list-style: none;
+  padding: 0;
+  display: flex;
 }
 
 .boosted__item {
-  border: 1px solid blue;
   width: 201px;
+  height: 33px;
+  margin-right: 12px;
+}
+
+.boosted__item:last-child {
+  margin: 0;
 }
 
 .boosted__link {
-  border: 1px solid blue;
+  text-decoration: none;
+  color: white;
+  line-height: 22px;
+  font-size: 15px;
+  font-weight: 400;
+  border: 2px solid orange;
+  border-radius: 50px;
+  background-color: #ff4a32;
+  width: 107px;
 }
 
 .boosted__logo-container {
-  border: 1px solid blue;
   width: 100%;
   background-color: #000000;
 }
 
 .boosted__logo {
-  border: 1px solid blue;
   width: 280px;
+  margin-right: 20px;
+}
+
+.boosted__logo:last-child {
+  margin: 0;
 }
