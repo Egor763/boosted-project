@@ -54,4 +54,7 @@
   font-size: 15px;
   font-weight: 400;
   text-decoration: none;
+  color: white;
+  border-radius: 50px;
+  background-color: #ff4a32;
 }
