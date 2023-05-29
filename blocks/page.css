@@ -4,3 +4,9 @@
   width: 100%;
   overflow-x: hidden;
 }
+
+.hover__link:hover {
+  background: white;
+  opacity: 0.8;
+  cursor: pointer;
+}

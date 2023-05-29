@@ -1,0 +1,43 @@
+.links {
+  max-width: 1440px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.links__title {
+  width: 368px;
+  margin-top: 55px;
+  line-height: 36px;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.links__container {
+  width: 100%;
+  margin-top: 40px;
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+
+.links__item-image {
+  width: 174px;
+}
+
+.links__item-text {
+  width: 174px;
+  text-align: center;
+  line-height: 18px;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.links__item-red {
+  color: red;
+}
+
+.links__item-grey {
+  color: grey;
+}
