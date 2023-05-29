@@ -10,3 +10,7 @@
   opacity: 0.8;
   cursor: pointer;
 }
+
+.page__footer {
+  margin-left: 130px;
+}
