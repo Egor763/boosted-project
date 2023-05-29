@@ -3,8 +3,10 @@
 }
 
 .video__container {
+  margin-top: 55px;
   width: 100%;
   display: flex;
+  margin-left: 140px;
 }
 
 .video__iframe {
