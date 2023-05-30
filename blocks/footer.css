@@ -4,12 +4,14 @@
   display: flex;
   flex-wrap: wrap;
   background-color: #f7f7f7;
+  max-height: 399px;
+  height: 100%;
 }
 
 .footer__logo {
   width: 160px;
   height: 134px;
-  margin: 50px 240px 145px 0;
+  margin: 35px 240px 145px 0;
 }
 
 .footer__container {
@@ -27,14 +29,16 @@
 }
 
 .footer__text {
-  width: 127px;
+  width: 200px;
   line-height: 21px;
   font-size: 13px;
   font-weight: 400;
+  margin: 0;
 }
 
 .footer__text-item {
   height: 380px;
+  margin-top: 20px;
 }
 
 .footer__title-item {
@@ -64,11 +68,15 @@
   font-weight: 400;
 }
 
+.footer__container-item {
+  margin-top: -62px;
+}
+
 .footer__copyright {
-  margin: 0;
   line-height: 19px;
   font-size: 13px;
   font-weight: 400;
+  margin: 0;
 }
 
 .footer__copyright-red {
@@ -80,9 +88,9 @@
 
 .footer__icons {
   width: 390px;
-  margin-left: 440px;
+  margin-left: 445px;
   height: 30px;
-  margin-top: 10px;
+  margin-top: -65px;
 }
 
 .footer__icon {

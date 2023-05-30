@@ -2,7 +2,6 @@
   font-family: 'Roboto', 'Arial', sans-serif;
   max-width: 1440px;
   width: 100%;
-  overflow-x: hidden;
 }
 
 .hover__link:hover {
@@ -12,5 +11,5 @@
 }
 
 .page__footer {
-  margin-left: 130px;
+  margin: 50px 0 0 120px;
 }

@@ -8,6 +8,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 74px;
 }
 
 .boosted__image {
@@ -17,8 +18,9 @@
 .boosted__title {
   width: 511px;
   position: absolute;
-  top: 53px;
+  top: 70px;
   bottom: 14px;
+  left: 457px;
   line-height: 51px;
   font-size: 44px;
   font-weight: 400;
@@ -29,8 +31,9 @@
 .boosted__subtitle {
   width: 537px;
   position: absolute;
-  top: 118px;
+  top: 137px;
   bottom: 22px;
+  left: 443px;
   line-height: 19px;
   font-size: 15px;
   font-weight: 400;
@@ -42,7 +45,8 @@
 .boosted__links {
   width: 414px;
   position: absolute;
-  top: 159px;
+  top: 162px;
+  left: 545px;
   list-style: none;
   padding: 0;
   display: flex;
@@ -72,11 +76,14 @@
 .boosted__logo-container {
   width: 100%;
   background-color: #000000;
+  margin: 0;
+  margin-left: 185px;
 }
 
 .boosted__logo {
-  width: 280px;
-  margin-right: 20px;
+  width: 150px;
+  height: 31px;
+  margin-right: 125px;
 }
 
 .boosted__logo:last-child {

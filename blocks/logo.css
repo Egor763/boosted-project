@@ -6,7 +6,7 @@
 
 .logo__container {
   width: 100%;
-  margin-top: 30px;
+  margin-top: 93px;
   list-style: none;
   padding: 0;
   display: flex;
@@ -35,6 +35,7 @@
   line-height: 36px;
   font-size: 31px;
   font-weight: 700;
+  margin-bottom: 5px;
 }
 
 .logo__subtitle {

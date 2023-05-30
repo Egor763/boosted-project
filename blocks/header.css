@@ -2,6 +2,7 @@
   max-width: 1440px;
   display: flex;
   flex-wrap: wrap;
+  margin: 0;
 }
 
 .header__black {
@@ -13,7 +14,7 @@
 .header__logo {
   width: 160px;
   height: 36px;
-  margin-right: 102px;
+  margin-right: 125px;
 }
 
 .header__links {
@@ -21,7 +22,7 @@
   display: flex;
   list-style: none;
   padding: 0;
-  margin: 22px 296px 0 0;
+  margin: 10px 303px 0 0;
 }
 
 .header__item {
@@ -39,6 +40,7 @@
   font-size: 14px;
   font-weight: 400;
   letter-spacing: 1px;
+  margin: 0;
 }
 
 .header__avatars {
