@@ -1,5 +1,5 @@
 .boosted {
-  max-width: 1440px;
+  width: 1440px;
 }
 
 .boosted__container {
@@ -8,32 +8,25 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 74px;
+  background-image: url('../images/Scooters.png');
+  height: 810px;
 }
 
-.boosted__image {
+/* .boosted__image {
   width: 100%;
-}
+} */
 
 .boosted__title {
   width: 511px;
-  position: absolute;
-  top: 70px;
-  bottom: 14px;
-  left: 457px;
+  margin: 45px 0 14px;
   line-height: 51px;
   font-size: 44px;
   font-weight: 400;
   height: 51px;
-  margin: 0;
 }
 
 .boosted__subtitle {
   width: 537px;
-  position: absolute;
-  top: 137px;
-  bottom: 22px;
-  left: 443px;
   line-height: 19px;
   font-size: 15px;
   font-weight: 400;
@@ -44,9 +37,7 @@
 
 .boosted__links {
   width: 414px;
-  position: absolute;
-  top: 162px;
-  left: 545px;
+  margin-top: 22px;
   list-style: none;
   padding: 0;
   display: flex;
@@ -70,22 +61,38 @@
   font-weight: 400;
   border-radius: 50px;
   background-color: #ff4a32;
-  width: 107px;
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.boosted__logo-container {
+.logs {
   width: 100%;
+  height: 83px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #000000;
   margin: 0;
-  margin-left: 185px;
 }
 
-.boosted__logo {
-  width: 150px;
-  height: 31px;
-  margin-right: 125px;
+.logs-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1070px;
+  height: 48px;
 }
 
-.boosted__logo:last-child {
+.logs__logo {
+  width: fit-content;
+  height: fit-content;
+  /* margin-right: 122px; */
+}
+
+.logs__logo:last-child {
   margin: 0;
 }

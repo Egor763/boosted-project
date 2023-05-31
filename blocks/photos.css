@@ -1,13 +1,6 @@
 .photos {
   max-width: 1440px;
-}
-
-.photos__container {
-  width: 100%;
-  margin-top: 9px;
   display: flex;
-  list-style: none;
-  padding: 0;
 }
 
 .photos__item {
@@ -26,22 +19,18 @@
   width: 241px;
   position: absolute;
   top: 198px;
-  bottom: 232px;
   color: white;
   line-height: 30px;
   font-size: 25px;
   font-weight: 400;
-  height: 30px;
 }
 
 .photos__subtitle {
   width: 83px;
   position: absolute;
   top: 243px;
-  bottom: 193px;
   color: white;
   line-height: 23px;
   font-size: 18px;
   font-weight: 400;
-  height: 24px;
 }

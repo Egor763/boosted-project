@@ -1,7 +1,5 @@
 .header {
-  max-width: 1440px;
-  display: flex;
-  flex-wrap: wrap;
+  width: 100%;
   margin: 0;
 }
 
@@ -11,10 +9,17 @@
   height: 29px;
 }
 
+.header__links-container {
+  width: 1440px;
+  height: 66px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .header__logo {
   width: 160px;
   height: 36px;
-  margin-right: 125px;
 }
 
 .header__links {
@@ -22,7 +27,7 @@
   display: flex;
   list-style: none;
   padding: 0;
-  margin: 10px 303px 0 0;
+  /* margin: 10px 303px 0 0; */
 }
 
 .header__item {
@@ -46,7 +51,7 @@
 .header__avatars {
   width: 51px;
   display: flex;
-  align-self: flex-end;
+  margin-right: 36px;
 }
 
 .header__avatar {
