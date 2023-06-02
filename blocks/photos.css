@@ -23,6 +23,7 @@
   line-height: 30px;
   font-size: 25px;
   font-weight: 400;
+  margin: 8px 0 0;
 }
 
 .photos__subtitle {
@@ -33,4 +34,5 @@
   line-height: 23px;
   font-size: 18px;
   font-weight: 400;
+  margin: 10px 0 0;
 }

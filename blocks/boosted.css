@@ -18,7 +18,7 @@
 
 .boosted__title {
   width: 511px;
-  margin: 45px 0 14px;
+  margin: 53px 0 14px;
   line-height: 51px;
   font-size: 44px;
   font-weight: 400;
@@ -37,7 +37,7 @@
 
 .boosted__links {
   width: 414px;
-  margin-top: 22px;
+  margin: 22px 0 0;
   list-style: none;
   padding: 0;
   display: flex;
@@ -90,7 +90,6 @@
 .logs__logo {
   width: fit-content;
   height: fit-content;
-  /* margin-right: 122px; */
 }
 
 .logs__logo:last-child {

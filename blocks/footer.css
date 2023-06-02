@@ -2,6 +2,7 @@
   max-width: 1440px;
   width: 100%;
   display: flex;
+  justify-content: space-between;
   flex-wrap: wrap;
   background-color: #f7f7f7;
   max-height: 399px;
@@ -11,14 +12,18 @@
 .footer__logo {
   width: 160px;
   height: 134px;
-  margin: 35px 240px 145px 0;
+  margin: 0;
+  margin-left: 120px;
 }
 
-.footer__container {
+.footer__links-container {
+  margin-left: 190px;
+}
+
+.footer__links {
   width: 380px;
   list-style: none;
   padding: 0;
-  margin-right: 20px;
 }
 
 .footer__title {
@@ -26,9 +31,10 @@
   line-height: 30px;
   font-size: 20px;
   font-weight: 400;
+  margin: 0 0 10px;
 }
 
-.footer__text {
+.footer__link {
   width: 200px;
   line-height: 21px;
   font-size: 13px;
@@ -36,47 +42,54 @@
   margin: 0;
 }
 
-.footer__text-item {
-  height: 380px;
-  margin-top: 20px;
+.footer__info {
+  margin-right: 120px;
 }
 
-.footer__title-item {
+.footer__title-info {
   width: 175px;
   line-height: 30px;
   font-size: 19px;
   font-weight: 400;
+  margin: 0;
 }
 
-.footer__subtitle-item {
+.footer__subtitle-info {
   width: 367px;
   line-height: 21px;
   font-size: 14px;
   font-weight: 400;
+  margin: 12px 0 19px;
 }
 
-.footer__texts {
+.footer__info-text {
   width: 210px;
-  list-style: none;
-  padding: 0;
+  margin: 0;
 }
 
-.footer__texts-item {
+.footer__text {
   width: 206px;
   line-height: 21px;
   font-size: 13px;
   font-weight: 400;
+  margin: 0;
 }
 
-.footer__container-item {
-  margin-top: -62px;
+.footer__cards-pay-container {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1440px;
+  height: 70px;
+  margin-top: 25px;
 }
 
 .footer__copyright {
   line-height: 19px;
   font-size: 13px;
   font-weight: 400;
-  margin: 0;
+  margin: 0 0 0 130px;
 }
 
 .footer__copyright-red {
@@ -86,11 +99,14 @@
   font-weight: 400;
 }
 
-.footer__icons {
+.footer__cards-icons {
   width: 390px;
-  margin-left: 445px;
   height: 30px;
-  margin-top: -65px;
+  display: flex;
+  gap: 4px;
+  list-style: none;
+  padding: 0;
+  margin-right: 85px;
 }
 
 .footer__icon {

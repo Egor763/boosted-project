@@ -8,7 +8,7 @@
 
 .links__title {
   width: 368px;
-  margin: 55px 0 15px 65px;
+  margin: 60px 0 15px;
   line-height: 36px;
   font-size: 32px;
   font-weight: 700;
@@ -20,10 +20,41 @@
   list-style: none;
   padding: 0;
   display: flex;
+  position: relative;
+}
+
+.links__shadow {
+  width: 1440px;
+  height: 66px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px -3px 4px rgba(0, 0, 0, 0.25);
+}
+
+.links__arrow-left {
+  width: 44px;
+  height: 44px;
+  position: absolute;
+  bottom: 67px;
+  left: 5px;
+  z-index: 2;
+}
+
+.links__arrow-right {
+  width: 44px;
+  height: 44px;
+  position: absolute;
+  bottom: 67px;
+  right: 5px;
+  transform: rotate(180deg);
+  z-index: 2;
+}
+
+.links__item {
+  margin-right: 20px;
 }
 
 .links__item-image {
-  width: 174px;
+  width: 186px;
+  height: 186px;
 }
 
 .links__item-text {
@@ -32,6 +63,7 @@
   line-height: 18px;
   font-size: 15px;
   font-weight: 400;
+  margin: 12px 0 4px;
 }
 
 .links__item-red {

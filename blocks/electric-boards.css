@@ -17,7 +17,7 @@
 }
 
 .electric-boards__title {
-  margin: 0 0 0 66px;
+  margin: 0;
   line-height: 51px;
   font-size: 45px;
   font-weight: 700;
@@ -25,7 +25,7 @@
 }
 
 .electric-boards__subtitle {
-  margin: 17px 0 20px 60px;
+  margin: 17px 0 20px;
   line-height: 19px;
   font-size: 15px;
   font-weight: 400;
@@ -44,5 +44,4 @@
   text-align: center;
   border-radius: 50px;
   background-color: #ff4a32;
-  margin-left: 40px;
 }
